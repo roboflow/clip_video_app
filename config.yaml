@@ -1,0 +1,20 @@
+roboflow_api_key: zZehudVV984QOf28TYFB  # Robofow API key
+video_path: '/Users/reed/Documents/VSCode/clip_investigator/data/IMG_7131.MOV' # '/Users/reed/Documents/VSCode/clip_investigator/data/IMG_7139.MOV' #"/Users/reed/Documents/VSCode/clip_investigator/data/IMG_7131.MOV"  # Path to video file
+CLIP:
+  - "bed"
+  - "chair"
+  - "couch"
+  - "wall"
+  - "rug"
+  - "table"
+  - "door"
+  - "stairs"
+  - "television"
+  - "kitchen"
+  # - wall
+  # - tile wall
+  # - large tile wall
+  # - shower wall
+  # - shower tiles
+  # - tiles
+  # - rectangle shower tile

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Analysis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+  <h1>CLIP Video Investigator</h1>
+  <div class="center">
+    <img id="video_frame" src="" alt="Video Frame">
+    <div>
+      <button id="start_button">Start</button>
+      <button id="stop_button">Stop</button>
+      <button id="reset_button">Reset</button>
+    </div>
+  </div>
+  <div id="plot_div"></div>
+  <div id="data_table"></div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+

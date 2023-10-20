@@ -1,0 +1,52 @@
+/* Dark background */
+body {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centered title */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Center content */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Video frame placeholder */
+  #video_frame {
+    width: 640px;
+    height: 360px;
+    border: 2px dashed #ccc;
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+  
+  
+  /* Button styling */
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #45a049;
+  }
+  
