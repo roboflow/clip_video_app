@@ -90,19 +90,15 @@ clip_investigator/
 
 1. Clone the repository.
     ```bash
-    git clone https://github.com/yourusername/clip_investigator.git
+    git clone https://github.com/roboflow/clip_video_app.git
     ```
 
 2. Navigate to the project directory.
     ```bash
-    cd clip_investigator
+    cd  clip_video_app
     ```
 
 3. (Optional) Create a virtual environment.
-    ```bash
-    virtualenv .venv
-    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
-    ```
 
 4. Install the dependencies.
     ```bash
@@ -112,7 +108,7 @@ clip_investigator/
 ## Usage
 **You must also be running the roboflow inference server localy!**
 
-0. Update the `config.yaml` file with your Roboflow API key and the path to your video file.
+0. Update the `config.yaml` file with your Roboflow API key and the path to your video file (or use sample file in /data folder).
 
 1. Start the Flask application.
     ```bash

@@ -1,5 +1,5 @@
-roboflow_api_key: ''  # Robofow API key
-video_path: '' # Path to video file
+roboflow_api_key: ""  # Robofow API key
+video_path: "data/output.mp4" # Path to video file
 CLIP:
   - "bed"
   - "chair"
